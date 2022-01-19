@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.26",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
@@ -32,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@rodneylab/svelte-social-icons": "^0.0.17",
 		"svelte-seo": "^1.4.0"
 	}
 }

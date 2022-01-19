@@ -1,22 +1,37 @@
 {
-  "url": "http://www.maycrodrigues.com",
-  "title": "Mayc Rodrigues",
-  "description": "Isso é uma descrição",
-  "organization": "Mayc Rodrigues",
-  "author": "Mayc Rodrigues",
+  "url": "http://www.atelielacofino.com",
+  "title": "Ateliê Laço Fino",
+  "description": "Produção artesanal de Laços e Tiaras infantil e adulto com foco no conforto e qualidade.",
+  "organization": "Ateliê Laço Fino",
+  "author": "Keylla Farina",
   "logo": {
-    "url": "https://place-hold.it/150x75/666",
+    "url": "./images/atelie-laco-fino-logo.png",
     "width": 150,
     "height": 75,
-    "alt": "logo"
+    "alt": "Ateliê Laço Fino"
   },
   "image": {
-    "url": "https://place-hold.it/850x650/666",
+    "url": "./background/atelie-laco-fino-laco-background-4.jpeg",
     "width": 850,
     "height": 650,
-    "alt": "alt text"
+    "alt": "Ateliê Laço Fino"
   },
-  "twitter": {
-    "username": "@maycrodrigues"
-  }
+  "networks": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/atelielacofino"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/atelielacofino"
+    },
+    {
+      "name": "pinterest",
+      "url": "https://br.pinterest.com/atelielaofino"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/atelielacofino"
+    }
+  ]
 }

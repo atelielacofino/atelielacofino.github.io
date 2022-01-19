@@ -12,6 +12,7 @@
 
 <script>
   import SvelteSeo from "svelte-seo";
+  import SocialIcons from '@rodneylab/svelte-social-icons';
 
 	export let data;
 </script>
@@ -35,7 +36,7 @@
   }}
 
   twitter={{
-    site: data.twitter.username,
+    site: data.networks[3].url,
     title: data.title,
     description: data.description,
     image: data.image.url,
@@ -68,13 +69,30 @@
 
 />
 
-<div class="project">
+<!-- <div class="w-full min-h-screen bg-no-repeat bg-cover bg-center bg-fixed blur-sm" style="background-image: url('{data.image.url}');"></div> -->
+<div class="w-full min-h-screen bg-no-repeat bg-cover bg-center bg-fixed" style="background-image: url('{data.image.url}');">
   {#if data}
     <div class="flex justify-center items-center min-h-screen">
       <div class="text-center p-8">
-        <h1 class="uppercase">{data.title}</h1>
-        <h3>{data.description}</h3>
+
+        <div class="flex justify-center">
+          <img src={data.logo.url} alt={data.title} class="object-contain h-48 w-96" />
+        </div>
+
+        <ul class="flex justify-center py-8">
+
+          {#each data.networks as item}
+            <li class="px-1">
+              <SocialIcons network={item.name} fgColor="#EC3D8C" bgColor="#FFE75E" />
+            </li>
+          {/each}
+
+        </ul>
+
+        <h2 class="flex justify-center py-3 text-sm subpixel-antialiased text-yellow-200 drop-shadow-md">{data.description}</h2>
+
       </div>
-    </div>  
+    </div>
+
   {/if}
 </div>
