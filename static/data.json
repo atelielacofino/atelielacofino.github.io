@@ -1,0 +1,22 @@
+{
+  "url": "http://www.maycrodrigues.com",
+  "title": "Mayc Rodrigues",
+  "description": "Isso é uma descrição",
+  "organization": "Mayc Rodrigues",
+  "author": "Mayc Rodrigues",
+  "logo": {
+    "url": "https://place-hold.it/150x75/666",
+    "width": 150,
+    "height": 75,
+    "alt": "logo"
+  },
+  "image": {
+    "url": "https://place-hold.it/850x650/666",
+    "width": 850,
+    "height": 650,
+    "alt": "alt text"
+  },
+  "twitter": {
+    "username": "@maycrodrigues"
+  }
+}
