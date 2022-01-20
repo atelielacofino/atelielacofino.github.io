@@ -12,11 +12,12 @@
 
 <script>
   import SvelteSeo from "svelte-seo";
-  import SocialIcons from '@rodneylab/svelte-social-icons';
+  
+  import Logo from './logo.svelte';
+  import Social from './social.svelte';
+  import Footer from './footer.svelte';
 
 	export let data;
-
-  const year = new Date().getFullYear();
 
   $: title = `${data.title} por ${data.author}`;
   $: twitter = data.networks.find(network => network.name === 'twitter');
@@ -84,43 +85,20 @@
   }}
 />
 
-<!-- <div class="w-full min-h-screen bg-no-repeat bg-cover bg-center bg-fixed blur-sm" style="background-image: url('{data.image.url}');"></div> -->
 <div class="w-full min-h-screen content-background">
 
   {#if data}
+
     <div class="flex justify-center items-center min-h-screen">
       <div class="text-center p-8">
-
-        <div class="flex justify-center">
-          <a href="/" title={data.name}>
-            <img src={data.logo.url} alt={data.title} class="object-contain h-48 w-96" />
-          </a>
-        </div>
-
-        <ul class="flex justify-center py-8">
-
-          {#each data.networks as item}
-            <li class="px-1">
-              <a href={item.url} target="_blank" rel="noopener noreferrer" title={item.title}>
-                <SocialIcons network={item.name} fgColor="#FE63AF" bgColor="#FFE75E" />
-              </a>
-            </li>
-          {/each}
-
-        </ul>
-
-        <div class="py-3 text-yellow-200 drop-shadow-md">
-          <h1 class="text-lg subpixel-antialiased">&copy; {year} <b>{data.title}</b></h1>
-          <h2 class="text-sm subpixel-antialiased">{data.description}</h2>
-          <p class="text-sm subpixel-antialiased">
-            <a href={email.url} title={email.title}>{email.target}</a>
-          </p>
-        </div>
-
+        <Logo title={data.title} url={data.logo.url} />
+        <Social networks={data.networks} />
+        <Footer title={data.title} description={data.description} email={email.target} />
       </div>
     </div>
 
   {/if}
+
 </div>
 
 <style>
@@ -128,13 +106,14 @@
     background: repeating-linear-gradient(
       45deg,
       rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.2) 10px,
-      rgba(0, 0, 0, 0.1) 50px,
+      rgba(0, 0, 0, 0.1) 10px,
+      rgba(0, 0, 0, 0.2) 50px,
       rgba(0, 0, 0, 0.1) 10px
     ),
-    url("./background/atelie-laco-fino-laco-background-6.jpeg");
+    url('/images/atelie-laco-fino-laco-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
 </style>
