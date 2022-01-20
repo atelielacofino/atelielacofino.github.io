@@ -11,27 +11,42 @@
     "alt": "Ateliê Laço Fino"
   },
   "image": {
-    "url": "./background/atelie-laco-fino-laco-background-4.jpeg",
+    "url": "./background/atelie-laco-fino-laco-background-6.jpeg",
     "width": 850,
     "height": 650,
     "alt": "Ateliê Laço Fino"
   },
   "networks": [
     {
+      "name": "whatsapp",
+      "title": "Entre em contato pelo WhatsApp",
+      "url": "https://wa.me/message/IE3KDWSMB7SCM1"
+    },
+    {
       "name": "facebook",
+      "title": "Curta nossa página no Facebook",
       "url": "https://www.facebook.com/atelielacofino"
     },
     {
       "name": "instagram",
+      "title": "Me siga no Instagram",
       "url": "https://www.instagram.com/atelielacofino"
     },
     {
       "name": "pinterest",
+      "title": "Encontre nossos pins no Pinterest",
       "url": "https://br.pinterest.com/atelielaofino"
     },
     {
       "name": "twitter",
+      "title": "Me siga no Twitter",
       "url": "https://twitter.com/atelielacofino"
+    },
+    {
+      "name": "email",
+      "title": "Entre em contato pelo e-mail",
+      "url": "mailto:lacofino.atelier@gmail.com",
+      "target": "lacofino.atelier@gmail.com"
     }
   ]
 }
