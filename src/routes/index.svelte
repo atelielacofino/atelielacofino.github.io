@@ -13,9 +13,9 @@
 <script>
   import SvelteSeo from "svelte-seo";
   
-  import Logo from './logo.svelte';
-  import Social from './social.svelte';
-  import Footer from './footer.svelte';
+  import Logo from '../components/logo.svelte';
+  import Social from '../components/social.svelte';
+  import Footer from '../components/footer.svelte';
 
 	export let data;
 
