@@ -13,6 +13,7 @@
 <script>
   import SvelteSeo from "svelte-seo";
   
+  import Container from '../components/container.svelte';
   import Logo from '../components/logo.svelte';
   import Social from '../components/social.svelte';
   import Footer from '../components/footer.svelte';
@@ -88,15 +89,11 @@
 <div class="w-full min-h-screen content-background">
 
   {#if data}
-
-    <div class="flex justify-center items-center min-h-screen">
-      <div class="text-center p-8">
-        <Logo title={data.title} url={data.logo.url} />
-        <Social networks={data.networks} />
-        <Footer title={data.title} description={data.description} email={email.target} />
-      </div>
-    </div>
-
+    <Container>
+      <Logo title={data.title} url={data.logo.url} />
+      <Social networks={data.networks} />
+      <Footer title={data.title} description={data.description} email={email.target} />
+    </Container>
   {/if}
 
 </div>
