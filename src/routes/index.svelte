@@ -107,7 +107,7 @@
       rgba(0, 0, 0, 0.2) 50px,
       rgba(0, 0, 0, 0.1) 10px
     ),
-    url('/images/atelie-laco-fino-laco-background.jpeg');
+    url('/images/atelie-laco-fino-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
