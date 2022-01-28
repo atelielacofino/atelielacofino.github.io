@@ -5,13 +5,13 @@
   "organization": "Ateliê Laço Fino",
   "author": "Keylla Farina",
   "logo": {
-    "url": "./images/atelie-laco-fino.webp",
+    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino.webp",
     "width": 150,
     "height": 75,
     "alt": "Ateliê Laço Fino"
   },
   "image": {
-    "url": "./images/atelie-laco-fino-laco-background.webp",
+    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino-laco-background.webp",
     "width": 850,
     "height": 650,
     "alt": "Ateliê Laço Fino"
