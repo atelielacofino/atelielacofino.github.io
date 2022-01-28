@@ -1,0 +1,52 @@
+{
+  "url": "https://maycrodrigues.github.io/atelie-laco-fino/",
+  "title": "Ateliê Laço Fino",
+  "description": "Produção artesanal de Laços e Tiaras infantil e adulto com foco no conforto e qualidade.",
+  "organization": "Ateliê Laço Fino",
+  "author": "Keylla Farina",
+  "logo": {
+    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino.webp",
+    "width": 150,
+    "height": 75,
+    "alt": "Ateliê Laço Fino"
+  },
+  "image": {
+    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino-laco-background.webp",
+    "width": 850,
+    "height": 650,
+    "alt": "Ateliê Laço Fino"
+  },
+  "networks": [
+    {
+      "name": "whatsapp",
+      "title": "Entre em contato pelo WhatsApp",
+      "url": "https://wa.me/message/IE3KDWSMB7SCM1"
+    },
+    {
+      "name": "facebook",
+      "title": "Curta nossa página no Facebook",
+      "url": "https://www.facebook.com/atelielacofino"
+    },
+    {
+      "name": "instagram",
+      "title": "Me siga no Instagram",
+      "url": "https://www.instagram.com/atelielacofino"
+    },
+    {
+      "name": "pinterest",
+      "title": "Encontre nossos pins no Pinterest",
+      "url": "https://br.pinterest.com/atelielaofino"
+    },
+    {
+      "name": "twitter",
+      "title": "Me siga no Twitter",
+      "url": "https://twitter.com/atelielacofino"
+    },
+    {
+      "name": "email",
+      "title": "Entre em contato pelo e-mail",
+      "url": "mailto:lacofino.atelier@gmail.com",
+      "target": "lacofino.atelier@gmail.com"
+    }
+  ]
+}
