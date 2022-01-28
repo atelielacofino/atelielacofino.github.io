@@ -1,17 +1,17 @@
 {
-  "url": "https://maycrodrigues.github.io/atelie-laco-fino/",
+  "url": "https://atelielacofino.github.io/",
   "title": "Ateliê Laço Fino",
   "description": "Produção artesanal de Laços e Tiaras infantil e adulto com foco no conforto e qualidade.",
   "organization": "Ateliê Laço Fino",
   "author": "Keylla Farina",
   "logo": {
-    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino.webp",
+    "url": "images/atelie-laco-fino.webp",
     "width": 150,
     "height": 75,
     "alt": "Ateliê Laço Fino"
   },
   "image": {
-    "url": "https://maycrodrigues.github.io/atelie-laco-fino/images/atelie-laco-fino-laco-background.webp",
+    "url": "images/atelie-laco-fino-laco-background.webp",
     "width": 850,
     "height": 650,
     "alt": "Ateliê Laço Fino"
