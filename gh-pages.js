@@ -9,6 +9,7 @@ publish(
       name: 'Keylla Farina', // update to use your name
       email: 'keyllafarina@gmail.com' // Update to use your email
     },
-    dotfiles: true
+    dotfiles: true,
+    add: true,
   }, () => { console.log('Deploy Complete!'); }
 );
